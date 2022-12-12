@@ -52,9 +52,9 @@ export default function Content() {
                   friends.
                 </p>
                 <p>
-                  Slater's favorite drink is sweet tea. Some of his favorite
-                  thing's to eat are steak, pasta with parmesan, and chicken
-                  nuggets.
+                  Slater&apos;s favorite drink is sweet tea. Some of his
+                  favorite thing&apos;s to eat are steak, pasta with parmesan,
+                  and chicken nuggets.
                 </p>
                 <p>
                   He dreams of making it to the Olympics to represent his
