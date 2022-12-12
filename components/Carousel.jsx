@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import Image from "next/image";
 
 // Data
 import data from "../helpers/data.json";
@@ -111,9 +112,11 @@ export default function Carousel() {
                   className="h-full w-full aspect-square block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
                   style={{ backgroundImage: `url(${resource.imageUrl || ""})` }}
                 >
-                  <img
+                  <Image
                     src={resource.imageUrl || ""}
                     alt={resource.title}
+                    width={256}
+                    height={256}
                     className="w-full aspect-square hidden"
                   />
                 </a>

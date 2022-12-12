@@ -1,15 +1,17 @@
 import Carousel from "./Carousel";
+import Image from "next/image";
 export default function Content() {
   return (
     <>
       <Carousel />
-      <div className="relative py-8">
+      <div className="relative">
         <div className="lg:absolute content-center lg:inset-0">
-          <div className="lg:absolute mt-8 left-48">
-            <img
-              className=""
+          <div className="pt-14 ml-52">
+            <Image
               src="https://i.ibb.co/pjgTSmV/slater-5th.png"
-              alt=""
+              alt="Slater contest 5th place"
+              width={572}
+              height={763}
             />
           </div>
         </div>
