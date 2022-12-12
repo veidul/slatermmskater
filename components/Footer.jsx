@@ -63,7 +63,7 @@ export default function Footer() {
           ))}
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
-          <p className="text-center text-base text-orange-700">
+          <p className="text-center text-base text-amber-900 font-semibold">
             &copy; SlaterMMSkater. All rights reserved.
           </p>
         </div>
