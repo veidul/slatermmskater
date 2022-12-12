@@ -30,6 +30,7 @@ export default function Content() {
               <div className="prose prose-indigo mt-5 text-orange-700 font-semibold">
                 <p>
                   First stepping on a skateboard at the age of 2 years old. He
+                  is a third generation skateboarber it is in his genetics. He
                   has since become obsessed with skateboard progression. Pushing
                   the limits of what a 10 year old body is capable of. He skates
                   competitively in contests all over California.
